@@ -1,4 +1,4 @@
-package com.kayotic;
+package com.kayotic.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

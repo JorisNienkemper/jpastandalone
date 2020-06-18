@@ -1,8 +1,8 @@
-package com.kayotic;
+package com.kayotic.domain;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 @Entity
@@ -11,7 +11,7 @@ public class FullPost {
     @Id
     private int id;
     private String title;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.PERSIST)
     private Category category;
 
     public FullPost() {

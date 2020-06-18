@@ -1,4 +1,4 @@
-package com.kayotic;
+package com.kayotic.domain;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -13,7 +13,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FullPostTests {
+public class FullPostWihtJPAStandaloneTests {
 
     private  EntityManagerFactory emf;
     private EntityManager em;
